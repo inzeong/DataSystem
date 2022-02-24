@@ -1,63 +1,40 @@
-# Energy-System 🏠
+# Housing System
 
-## About
-가구 전력 통합 모니터링 시스템
+## 1. 프로젝트 소개
 
-## Version
+#### 🏠  미래 전력 소비량 및 태양광 발전량 예측 및 모니터링 시스템 
 
-Java : jdk-1.8.0 <br>
-Hadoop : hadoop-3.2.1 <br>
-Kafka : kafka:2.12-2.0.1 <br>
-Zookeeper : zookeeper:3.4.6 <br>
-Spark : spark-3.1.2 <br>
+21년 기준 건물 부문의 온실가스 배출량이 약70%로 가장 큰 부분을 차지,그 중 전력 에너지의 온실가스 배출량이 제일 많음. <br>
+주택의 온실가스 배출량을 감축시키기 위해 인공지능을 활용한 주택 전력 플랫폼 기술을 개발 및 접목한 시스템을 구축. 
 
-## Model 
-ARIMA [Auto-regressive Integrated Moving Average] <br>
-SARIMA+X [Seasonal ARIMA] <br>
-LSTM [Long Short Term Memory]<br>
+<br>
 
-## Roles
-<table>
-  <tr>
-    <td align="center" width="180">
-      <a href="https://github.com/inzeong">
-        <img src="https://user-images.githubusercontent.com/43091713/154184345-94aac669-7955-462f-a4ca-cbe5ef6612d7.png" width="100" alt=""/>
-        <br />
-        <sub><b>Jungin</b></sub>
-      </a>
-      <p>
-        Bigdata Engineering
-      </p>
-    </td>
-    <td align="center" width="180">
-      <a href="https://github.com/bonawoo">
-        <img src="https://user-images.githubusercontent.com/43091713/154184385-0d4705bc-3b8f-41bb-8ee4-e0aad9518fdf.png" width="100" alt=""/>
-        <br />
-        <sub><b>Woochan</b></sub>
-      </a>
-      <p>
-        Bigdata Analaysis
-      </p>
-    </td>
-    <td align="center" width="180">
-      <a href="https://github.com/sturdyoak">
-        <img src="https://user-images.githubusercontent.com/43091713/154184340-ef936602-9c84-457d-b040-3d5a8b5a961d.png" width="100" alt=""/>
-        <br />
-        <sub><b>Seoyoung</b></sub>
-      </a>
-      <p>
-        Bigdata Visualize
-      </p>
-    </td>
-    <td align="center" width="180">
-      <a href="https://github.com/jeonging1">
-        <img src="https://user-images.githubusercontent.com/43091713/154184528-01cb77a2-35b3-44a8-95c0-55676771f28f.png" width="100" alt=""/>
-        <br />
-        <sub><b>Jeongin</b></sub>
-      </a>
-      <p>
-        Bigdata Visualize
-      </p>
-    </td>
-  </tr>
-</table>
+## 2. 구현 기능 
+- [x] AMI와 IoT센서를 활용해 실시간 데이터를 수집
+- [x] KAFKA & Spark Streaming 사용해 client 대상 실시간 데이터 처리
+- [x] HDFS 구축 및 데이터 종류별로 적재
+- [x] 기상청 데이터와 연동하여 미래 전력 소비량 및 태양광 발전량을 예측 
+- [x] 시계열 데이터 알고리즘 연구 및 모델링 
+- [x] 전력소비량과 태양광 발전량을 활용하여 주택의 탄소배출량을 계산
+- [x] 관리자,개인,공공기관에 각자 다른 모니터링 서비스를 제공<br>
+
+
+<br>
+
+## 3. 사용 기술
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/43091713/155473726-6dd55caa-31aa-46e9-ac56-82faf50aebce.png">
+
+
+## 4. 사용 모델
+
+### 전력 생산량 
+ARIMA : Auto-regressive Integrated Moving Average  <br>
+SARIMA : Seasonal ARIMA  <br> 
+LSTM : Long Short Term Memory  <br>
+
+### 태양광 발전량
+ARIMA : Auto-regressive Integrated Moving Average  <br>
+SARIMA : Seasonal ARIMA  <br>
+SARIMA+X : Seasonal ARIMA+X  <br>
+LSTM : Long Short Term Memory  <br>
