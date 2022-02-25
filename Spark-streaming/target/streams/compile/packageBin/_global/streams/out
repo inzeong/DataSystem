@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/streaming_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Consumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/classes/Consumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ET$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/classes/ET$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/classes/Sample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/classes/Sample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ET.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/classes/ET.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Consumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/classes/Consumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ET$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jungin/Documents/ground/spark-streaming/target/scala-2.12/classes/ET$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

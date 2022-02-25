@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/jungin/Documents/ground/spark-streaming/src/main/scala/ET.scala:17:19: not found: type ListBuffer[0m
+[0m[[0m[31merror[0m] [0m[0m    val lis = new ListBuffer[String]()[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

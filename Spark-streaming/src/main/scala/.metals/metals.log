@@ -1,0 +1,20 @@
+2022.02.21 10:11:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/.metals/lsp.trace.json or /Users/jungin/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.02.21 10:11:26 INFO  logging to file /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/.metals/metals.log
+2022.02.21 10:11:26 INFO  Started: Metals version 0.11.1 in workspace '/Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala' for client Visual Studio Code 1.63.2.
+2022.02.21 10:11:29 INFO  time: initialize in 3.38s
+2022.02.21 10:11:30 WARN  Build server is not auto-connectable.
+2022.02.21 10:11:30 WARN  no build tool detected in workspace '/Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.02.21 10:11:30 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/Consumer.scala
+2022.02.21 10:11:44 INFO  no build target found for /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/Consumer.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.21 10:11:47 INFO  time: code lens generation in 15s
+2022.02.21 10:11:47 INFO  time: code lens generation in 14s
+2022.02.21 10:11:47 INFO  time: code lens generation in 15s
+2022.02.21 10:11:47 INFO  time: code lens generation in 14s
+2022.02.21 10:13:19 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/JoinExample.scala
+2022.02.21 10:13:20 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/Read.scala
+2022.02.21 10:13:20 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/swTest.scala
+2022.02.21 10:17:05 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/swTest.scala
+2022.02.21 10:17:09 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/swTest.scala
+2022.02.21 10:17:17 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/swTest.scala
+2022.02.21 10:17:17 WARN  no build target for: /Users/jungin/Desktop/Sun-clustering-master/Code/sungwoo/data_lake_test/consumer/src/main/scala/Read.scala
+2022.02.21 11:19:14 INFO  shutting down Metals
