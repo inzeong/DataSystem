@@ -9,6 +9,8 @@
 
 <br>
 
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/43091713/155642491-697268c7-5860-4c93-a8a6-e540c6348910.png"> <img width="400" alt="image" src="https://user-images.githubusercontent.com/43091713/155642496-fcc6d17c-0dc6-4ce1-9cc7-eda93aa6d08e.png">
+
 ## 2. 구현 기능 
 - [x] AMI와 IoT센서를 활용해 실시간 데이터를 수집
 - [x] KAFKA & Spark Streaming 사용해 client 대상 실시간 데이터 처리
